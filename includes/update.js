@@ -1,0 +1,2 @@
+jQuery(document).ready(function($){$(".button-primary").click(function(){var e=$("#Twitter").val();var t=$("#Facebook").val();var n=$("#Email").val();$.post("",{Twitter:e,Facebook:t,Email:n},function(e){return e}).success(function(){alert("Data Has Been Updated")}).error(function(){alert("There was an error!! if this error keep showing to you please contact the programmer walid.naceri@yahoo.com")})})})
+
